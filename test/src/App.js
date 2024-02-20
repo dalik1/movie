@@ -1,9 +1,11 @@
-import logo from './logo.svg';
+import { Container } from './page/home';
 import './global.css';
 
 function App() {
   return (
-    
+    <Container>
+      
+    </Container>
   );
 }
 
