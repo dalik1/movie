@@ -26,7 +26,10 @@ function CarouselInner(){
 }
 
 function Item(){
-    return(
-        <img class="caroucel-item" src= "https://picsum.photos/702/420?random=1"/>
-    )
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        return(
+            <img class="caroucel-item" src= "https://picsum.photos/702/420?random=1"/>
+        )
+    }
 }
