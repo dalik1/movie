@@ -1,18 +1,29 @@
-import { boostrap } from "bootstrap"
+import 'bootstrap';
 
 export function Caroucel(){
     return(
-        <div class="carousel" id="add">
-            <CarouselInner></CarouselInner>
-            <CarouselInner></CarouselInner>
-            <CarouselInner></CarouselInner>
-            
-            <botton class="carousel-control-prov" data-bs-target="#add" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </botton>
-            <botton class="carousel-control-next" data-bs-target="#add" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </botton>
+        <div class="carousel slide" data-bs-ride="carousel" id="ads" data-bs-touch="true">
+            <div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://picsum.photos/1280/420?random=1" alt="" class="d-block"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1280/420?random=2" alt="" class="d-block"/>
+                    </div>
+                    <div class="carousel-item">
+                        <video src="https://youtu.be/Tj6XC1Xw_oE"></video>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#ads" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon">
+                    </span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#ads" data-bs-slide="next">
+                    <span class="carousel-control-next-icon">
+                    </span>
+                </button>
+            </div>
         </div>
     )
 }
@@ -20,16 +31,14 @@ export function Caroucel(){
 function CarouselInner(){
     return(
         <div class="carousel-inner">
-            <Item></Item>
+            <img class="caroucel-item" src= "https://picsum.photos/702/420?random=1"/>
         </div>
     )
 }
 
-function Item(){
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
+/*function Item(){
+
         return(
-            <img class="caroucel-item" src= "https://picsum.photos/702/420?random=1"/>
+            
         )
-    }
-}
+}*/

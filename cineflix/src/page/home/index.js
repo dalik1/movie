@@ -1,8 +1,8 @@
 import { Caroucel, caroucel } from "../caroucel"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
 export function Container(){
     return(
-        <div class="container py-5">
-            <Caroucel></Caroucel>
-        </div>
+        <Caroucel></Caroucel>
     )
 }
