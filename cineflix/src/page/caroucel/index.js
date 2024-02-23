@@ -5,22 +5,16 @@ export function Caroucel(){
         <div class="carousel slide" data-bs-ride="carousel" id="ads" data-bs-touch="true">
             <div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://picsum.photos/1280/420?random=1" alt="" class="d-block"/>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://picsum.photos/1280/420?random=2" alt="" class="d-block"/>
-                    </div>
-                    <div class="carousel-item">
-                        <video src="https://youtu.be/Tj6XC1Xw_oE"></video>
-                    </div>
+                    <CarouselInner></CarouselInner>
+                    <CarouselInner></CarouselInner>
+                    <CarouselInner></CarouselInner>
                 </div>
                 <button class="carousel-control-prev" data-bs-target="#ads" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon">
+                    <span class="carousel-control-prev-icon bg-dark opacity-75 rounded-circle">
                     </span>
                 </button>
                 <button class="carousel-control-next" data-bs-target="#ads" data-bs-slide="next">
-                    <span class="carousel-control-next-icon">
+                    <span class="carousel-control-next-icon bg-dark opacity-75 rounded-circle">
                     </span>
                 </button>
             </div>
@@ -30,15 +24,8 @@ export function Caroucel(){
 
 function CarouselInner(){
     return(
-        <div class="carousel-inner">
-            <img class="caroucel-item" src= "https://picsum.photos/702/420?random=1"/>
+        <div class="carousel-item active" data-bs-interval="none">
+            <img src="https://picsum.photos/1280/420?random" alt="" class="d-block"/>
         </div>
     )
 }
-
-/*function Item(){
-
-        return(
-            
-        )
-}*/
