@@ -24,8 +24,8 @@ export function Caroucel(){
 
 function CarouselInner(){
     return(
-        <div class="carousel-item active" data-bs-interval="20000">
-           <iframe width="917" height="515" src="https://www.youtube.com/embed/ncwsW3qxQlo" title="Duna: Parte 2 | Trailer Oficial 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="carousel-item active" data-bs-interval="10000" >
+            <iframe height="500" class="col-12" src="https://www.youtube.com/embed/rJEIo9LxEQs?si=4UbNHinLSWVWMUYx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
