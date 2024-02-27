@@ -24,8 +24,8 @@ export function Caroucel(){
 
 function CarouselInner(){
     return(
-        <div class="carousel-item active" data-bs-interval="none">
-            <img src="https://picsum.photos/1280/420?random" alt="" class="d-block"/>
+        <div class="carousel-item active" data-bs-interval="20000">
+           <iframe width="917" height="515" src="https://www.youtube.com/embed/ncwsW3qxQlo" title="Duna: Parte 2 | Trailer Oficial 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
