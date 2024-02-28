@@ -1,5 +1,6 @@
 import 'bootstrap';
 
+
 export function Caroucel(){
     return(
         <div class="carousel slide" data-bs-ride="carousel" id="ads" data-bs-touch="true">
@@ -25,7 +26,8 @@ export function Caroucel(){
 function CarouselInner(){
     return(
         <div class="carousel-item active" data-bs-interval="10000" >
-            <iframe height="500" class="col-12" src="https://www.youtube.com/embed/rJEIo9LxEQs?si=4UbNHinLSWVWMUYx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <img class="films col-4" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
+
         </div>
     )
 }
