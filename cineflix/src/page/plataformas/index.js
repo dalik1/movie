@@ -1,8 +1,8 @@
-import '../style.css';
+import '../style/style.css';
 
 export function Plataforma() {
     return(
-    <div class="plataformas d-flex justify-content-center">
+    <div class="plataformas m-4 d-flex justify-content-center">
         <a href="#" class="plat">
             <button class="plataforma">
                 <img class="imgplat" id="netflix" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2015_N_logo.svg/495px-Netflix_2015_N_logo.svg.png" alt="Netflix"/>
@@ -20,7 +20,7 @@ export function Plataforma() {
         </a>
         <a href="#" class="plat">
             <button class="plataforma">
-                <img class="imgplat" id="amazon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Amazon_Prime_Logo.svg/120px-Amazon_Prime_Logo.svg.png" alt="Amazon Prime"/>
+                <img class="imgplat" id="prime" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Amazon_Prime_Logo.svg/120px-Amazon_Prime_Logo.svg.png" alt="Amazon Prime"/>
             </button>
         </a>
         <a href="#" class="plat">

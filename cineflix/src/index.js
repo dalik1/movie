@@ -5,9 +5,10 @@ import { Container } from './page/home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Container>
-    
-  </Container>
+  <main>
+    <Container>
+    </Container>
+  </main>
 );
 
 // If you want to start measuring performance in your app, pass a function
