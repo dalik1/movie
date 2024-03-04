@@ -1,7 +1,29 @@
+@media (max-width: 767px) {
+    .mid-sai{
+        display: none;
+    }
+    .mid-cresce{
+        width: 45%;
+        margin: 2.5%;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Cabeçalio*/
+.cabeca{
+    height: 2em;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    background-color: red;
+
+}
+/*Plataforma*/
 .plataforma{
     background-color: #2b2b2b;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     margin-top: 150px;
     margin: 10px;
     border: 1px solid #fff;
@@ -23,20 +45,24 @@
 .plataforma:hover >img.imgplat{
     align-items: center;
 }
-/*Plataforma*/
 #netflix{
     width: 25px;
     height: 40px;
 }
 #disnay, #hbo, #paramount{
     position: relative;
-    left: -9px;
+    left: -5px;
     width: 55px;
     height: 35px;
 }
 #prime{
     position: relative;
-    left: -6px;
+    left: -2.5px;
     width: 50px;
     height: 30px;
+}
+/*carrossel*/
+.video
+.films{
+    border-radius: 5px;
 }

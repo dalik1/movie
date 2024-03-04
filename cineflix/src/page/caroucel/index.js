@@ -25,10 +25,11 @@ export function Caroucel(){
 function CarouselInner(){
     return(
         <div class="carousel-item active" data-bs-interval="10000" >
-            <img class="films col-3" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
-            <img class="films col-3" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
-            <img class="films col-3" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
-            <img class="films col-3" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
+            <img class="films col-3 mid-cresce" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
+            <img class="films col-3 mid-cresce" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
+            <img class="films col-3 mid-sai" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
+            <img class="films col-3 mid-sai" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
+            <iframe width="560" class="d-none" height="315" src="https://www.youtube.com/embed/QqmbrvluQRA?si=xDem_qo2kod-Si14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
