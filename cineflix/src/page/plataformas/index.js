@@ -10,7 +10,7 @@ export function Plataforma() {
         </a>
         <a href="#" class="plat">
             <button class="plataforma bg-secundary">
-                <img class="imgplat" id="disnay" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/1200px-Disney%2B_logo.svg.png" alt="Disnay+"/>
+                <img class="imgplat" id="disnay" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Disney_Plus_logo.svg/884px-Disney_Plus_logo.svg.png" alt="Disnay+"/>
             </button>
         </a>
         <a href="#" class="plat">
