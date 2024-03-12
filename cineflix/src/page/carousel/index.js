@@ -24,7 +24,7 @@ export function Carousel(){
 
 function CarouselInner(){
     return(
-        <div class="carousel-item active" data-bs-interval="10000" >
+        <div class="carousel-item active" data-bs-interval="none" >
             <img class="films col-3 mid-cresce" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
             <img class="films col-3 mid-cresce" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
             <img class="films col-3 mid-sai" src="https://www.themoviedb.org/t/p/w1280/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg" alt="Duna"/>
