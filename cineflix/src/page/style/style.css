@@ -1,3 +1,4 @@
+
 @media (min-width: 426px){
     .video{
         display: none;
@@ -33,12 +34,24 @@
     }
     #prime{
         position: relative;
-        top: -0.7vw;
+        top: 0vw;
+        left: -1.4vw;
+    }
+    #disnay, #hbo, #paramount{
+        position: relative;
+        top: -0.5vw;
+        left: -1.6vw;
+    }
+}
+@media(max-width: 320px){
+    #prime{
+        position: relative;
+        top: -0.6vw;
         left: -1.7vw;
     }
     #disnay, #hbo, #paramount{
         position: relative;
-        top: -0.7vw;
+        top: -0.5vw;
         left: -2.5vw;
     }
 }
