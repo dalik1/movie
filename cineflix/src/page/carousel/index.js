@@ -2,7 +2,7 @@
 
 export function Carousel(){
     return(
-        <div class="carousel slide"  data-bs-interval="false" data-bs-ride="carousel" id="ads" data-bs-touch="true">
+        <div class="carousel slide"  data-bs-interval="10000" data-bs-ride="carousel" id="ads" data-bs-touch="true">
                 <div class="carousel-inner">
                     <CarouselInnerActive></CarouselInnerActive>
                     <CarouselInner></CarouselInner>
