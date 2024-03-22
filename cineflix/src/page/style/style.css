@@ -70,16 +70,36 @@
     padding: 0;
 }
 /*Cabecalio*/
-
-.cabecalios{
-    height: 5vw;
+.pesquisa-label{
+    position: relative;
+    left: 70%;
+    top: -25px;
+}
+.pesquisa-control{
+    width: 25%;
+    position: relative;
+    left: 68.5%;
+    top: -25px;
+}
+.pesquisa-icon{
+    color: #fff;
+    width: 39px;
+    height: 39px;
+}
+.menu-icon{
+    color: #fff;
+    position: relative;
+    top: 15px;
+    left: 1vw;
+}
+.cabecalio{
+    height: 4vw;
     width: 100%;
     border-radius: 0 0 10px 10px;
     background-color: #474747;
     border-bottom: solid #fff 1px;
     border-left: solid #fff 1px;
     border-right: solid #fff 1px;
-    align-items: center;
 }
 /*Plataforma*/
 .plataforma{
