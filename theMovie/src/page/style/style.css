@@ -36,26 +36,33 @@
     left: 1vw;
 }
 /*pesquisa*/
-.pesquisa-label{
-    position: relative;
-    left: 60%;
-    top: -2.5vw;
-} 
+
 @media (min-width: 769px){
+    .pesquisa-label{
+        left: 60%;
+        top: -2.5vw;
+    }
     .pesquisa-control{
         display: inline;
         width: 35%;
         height: 2vw;
         position: relative;
         left: 58.5%;
-        top: -2.3vw;
+        top: -2.5vw;
     }
 }
 @media (max-width: 769px){
+    .pesquisa-label{
+        left: 96%;
+        top: -3.3vw;
+    }
     .pesquisa-control{
         display: none;
     }
 }
+.pesquisa-label{
+    position: relative;
+} 
 .pesquisa-icon{
     color: #fff;
     width: 2vw;
