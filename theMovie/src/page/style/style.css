@@ -59,6 +59,21 @@
     .pesquisa-control{
         display: none;
     }
+    .search-container {
+        position: relative;
+      }
+    .search-bar {
+        display: none;
+        width: 200px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      #search-icon img {
+        width: 20px;
+        height: 20px;
+      }
 }
 .pesquisa-label{
     position: relative;
